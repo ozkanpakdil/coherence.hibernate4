@@ -82,4 +82,13 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<issueManagement>
+		<url>https://github.com/opakdil/coherence.hibernate4/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+	<scm>
+		<url>https://github.com/ozkanpakdil/coherencejsptags.git</url>
+		<connection>scm:git:git://github.com/ozkanpakdil/coherence.hibernate4.git</connection>
+		<developerConnection>scm:git:git@github.com:ozkanpakdil/coherence.hibernate4.git</developerConnection>
+	</scm>
 </project>
