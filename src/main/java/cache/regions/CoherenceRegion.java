@@ -28,7 +28,10 @@ public class CoherenceRegion implements Region {
 	}
 
 	public void destroy() throws CacheException {
-		cache.release();
+		// fix for 19:18:32.134 [http-thread-pool-8080(2)] ERROR com.mascix.provider.DaoUtil - from Category where parent.id =24196 order by name
+		//java.lang.IllegalStateException: SafeNamedCache was explicitly released
+
+		//cache.release();
 	}
 
 	public boolean contains(Object key) {
