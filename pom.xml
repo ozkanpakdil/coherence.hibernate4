@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mascix</groupId>
 	<artifactId>coherence.hibernate4</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<description>hibernate 4 second level cache library for oracle coherence.</description>
 	<developers>
 		<developer>
